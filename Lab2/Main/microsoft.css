@@ -1,10 +1,8 @@
-{
-    box-sizing: border-box
-;
-    margin: 0
-;
-    padding: 0
-;
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 .MainBox {
@@ -13,6 +11,7 @@
     color: #000;
     font-size: 15px;
     line-height: 1.5;
+    
 }
 
 a {
@@ -31,7 +30,7 @@ svg {
 
 .container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -42,8 +41,7 @@ svg {
     justify-content: space-between;
     height: 60px;
     font-size: 13px;
-    margin-top: -12px;
-    margin-left: -240px;
+    padding-left: 3rem;
 }
 .main-nav .logo {
     width: 108px;
