@@ -30,8 +30,8 @@ body {
 }
 
 .form-control{
-    background-color: aliceblue;
-    border: 1px solid aliceblue;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
     border-radius: 40px;
     padding-left: 10px;
 }
