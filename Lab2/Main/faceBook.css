@@ -1,17 +1,13 @@
 body{
     background: #f0f2f5;
 }
-
-
-
-
 .email-input input {
     border-radius: 6px;
     font-size: 20px;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
     border: 1px solid #dddfe2;
     height: 60px;
-    margin-bottom: 10px; /* Добавляет отступ снизу каждого элемента */
+    margin-bottom: 10px;
 }
 
 .email-input {
@@ -21,12 +17,12 @@ body{
 }
 .login-button button {
     font-weight: bold;
-    background-color: #1877f2; /* Синий фон кнопки */
+    background-color: #1877f2;
     border: none;
     border-radius: 6px;
     font-size: 20px;
     line-height: 48px;
-    padding: 0; /* Убрать паддинг у самой кнопки */
+    padding: 0;
     width: 430px;
     display: inline-block;
     height: 60px;
@@ -35,30 +31,27 @@ body{
 
 .login-button button .button-text {
     color: white;
-    padding: 0 16px; /* Паддинг для текста */
-    border-radius: 4px; /* Скругление углов для фона текста */
-    /* Убедитесь, что высота меньше высоты кнопки, чтобы сохранить эффект "подушки" */
+    padding: 0 16px;
+    border-radius: 4px;
 }
 
 .forgot-pass a {
-    color: #1877f2; /* Установите предпочитаемый цвет для текста ссылки */
-    text-decoration: none; /* Убирает подчеркивание */
-    display: inline-block; /* Если вы хотите, чтобы ссылка вела себя как блок */
-    margin-top: 10px; /* Добавьте небольшой отступ сверху */
-    font-size: 18px; /* Уменьшите размер шрифта, если нужно */
-    cursor: pointer; /* Изменяет курсор на указатель при наведении */
+    color: #1877f2;
+    text-decoration: none; 
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px; 
+    cursor: pointer; 
 }
 
 .forgot-pass a:hover {
-    text-decoration: underline; /* Добавляет подчеркивание при наведении, если нужно */
+    text-decoration: underline;
 }
 
 .new-acc{
     font-weight: bold;
     color:white;
-    text-decoration: none;
     background-color: #42b72a;
-    border: none;
     border-radius: 6px;
     font-size: 17px;
     line-height: 30px;
@@ -159,8 +152,6 @@ body{
 .under_logo_text{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 35px;
-    line-height: 28px;
-    width: auto;
     font-weight: normal;
     margin: 30px;
 
@@ -181,13 +172,10 @@ body{
     text-align: center;
 
 }
-.main-right{
-
-}
 .text-under-form {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 20px; /* Уменьшите размер шрифта, если это необходимо */
-    text-align: center; /* Выравнивание текста по центру */
+    font-size: 20px;
+    text-align: center;
     margin-left: 45%;
-    font-weight: normal; /* Шрифт обычной жирности */
+    font-weight: normal;
 }
