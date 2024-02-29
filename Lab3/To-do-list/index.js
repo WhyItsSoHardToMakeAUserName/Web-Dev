@@ -9,8 +9,9 @@ todoForm.addEventListener('submit', onSubmit);
 function onSubmit(e) {
     e.preventDefault();
 
-    if (inputForm.value === '') {
+    if (inputForm.value.trim() === '') {
         errorMessage.innerHTML = 'Please enter a task';
+
         setTimeout(() => errorMessage.innerHTML = '', 2000);
     } else {
         console.log("Adding item: " + inputForm.value);
