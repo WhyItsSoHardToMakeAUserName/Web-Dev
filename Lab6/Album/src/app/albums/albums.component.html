@@ -1,0 +1,6 @@
+
+<div *ngFor="let album of albums$ | async">
+    <p (click)="redirectToAlbum(album.id)">{{ album.title }}</p>
+    <button (click)="deleteAlbum($event)">Delete</button>
+  </div>
+  
